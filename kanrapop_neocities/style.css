@@ -1,0 +1,76 @@
+*{
+    letter-spacing: 7px;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #0d0c10;
+    color: #e9dfd5;
+}
+header{
+    text-align: center;
+    margin-top: 40px;
+
+}
+a{
+    text-decoration: none;
+    animation: TextLink 3s ease-in infinite;
+
+}
+a:link{
+    color: #fff1f1;
+}
+a:visited{
+    color: #fff1f1;
+}
+a:hover{
+animation: TextLink 1.4s ease-in-out infinite;
+}
+
+
+#Zouragi{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 800px;
+    padding-top: 50px;
+    background-color: #2a2b32;
+    border-radius: 5px;
+    
+}
+#avatar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    border-radius: 300px;
+    border-color: #040505;
+    box-shadow: 0px 0px 8px 4px #040505;
+    animation: AvatarBorder 3s ease-in-out infinite;
+}
+h1{
+    text-align: center;
+    line-height: 1.8;
+    font-size: 34px;
+}
+.personal{
+    text-align: center ;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+@keyframes TextLink {
+    50% {
+        color: #ff6a6a;
+        text-shadow: #0e0000 2px 3px 3px;
+    }
+}
+@keyframes AvatarBorder {
+    50%{
+        border-color: #bd3b38;
+        box-shadow: 0px 0px 8px 4px #bd3b38;
+    }
+    
+}
