@@ -10,29 +10,29 @@ body{
 }
 header{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 
 }
-a{
+#Zouragi{
     text-decoration: none;
     animation: TextLink 3s ease-in infinite;
 
 }
-a:link{
+#Zouragi:link{
     color: #fff1f1;
 }
-a:visited{
+#Zouragi:visited{
     color: #fff1f1;
 }
-a:hover{
+#Zouragi:hover{
 animation: TextLink 1.4s ease-in-out infinite;
 }
 
 
-#Zouragi{
+#shizen{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 800px;
     padding-top: 50px;
     background-color: #2a2b32;
@@ -60,7 +60,16 @@ h1{
     font-size: 18px;
     padding-bottom: 20px;
 }
-
+.navbar{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+#login{
+    letter-spacing: 10px;
+    color: aqua;
+    
+}
 @keyframes TextLink {
     50% {
         color: #ff6a6a;
